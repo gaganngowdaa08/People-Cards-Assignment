@@ -1,0 +1,39 @@
+/* 1. Card styling from the class quiz */
+.custom-card {
+    border-radius: 20px; /* Quiz answer: Rounded corners */
+    border: none;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background: white;
+    opacity: 0; 
+    animation: fadeIn 0.8s ease forwards;
+}
+
+/* 2. Hover animation for professional detail */
+.custom-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+}
+
+.card-img-top {
+    height: 220px;
+    object-fit: cover;
+}
+
+/* 3. Fade-in animation logic */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* 4. THE NEW PART: Outstanding Button Style */
+.btn-primary {
+    background: linear-gradient(45deg, #007bff, #0056b3);
+    border: none;
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    transform: scale(1.1); /* Makes the button pop when clicked */
+    box-shadow: 0 5px 15px rgba(0,123,255,0.4);
+}
