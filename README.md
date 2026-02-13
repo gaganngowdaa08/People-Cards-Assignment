@@ -25,4 +25,4 @@ This assignment focuses on the following technical concepts discussed in class:
 
 • Task: Create a webpage displaying "People Cards" using specific DOM methods and Bootstrap.
 
-• Status: Completed ✅
+• Status: Completed 
